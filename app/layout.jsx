@@ -22,11 +22,6 @@ export const metadata = {
 		"ammriteshh",
 		"amritesh singh",
 		"singh",
-		// "amritesh singh ",
-		// "alvalen shafel bilyunazra",
-		// "bloodfallen",
-		// "alvalen porto",
-		// "alvalen um",
 	],
 
     openGraph: {
