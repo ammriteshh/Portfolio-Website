@@ -96,9 +96,9 @@ export default function Page() {
 						opacity: 1,
 					}}
 					className="flex justify-center items-center flex-col my-5 self-start ">
-					<Button variation="primary">
+					{/* <Button variation="primary">
 						<Link href="projects/archive">View In Archive</Link>
-					</Button>
+					</Button> */}
 				</motion.div>
 			</main>
 		</>
