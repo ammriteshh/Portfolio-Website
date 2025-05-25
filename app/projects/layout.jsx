@@ -1,4 +1,4 @@
-n// generate layour with footer
+// generate layour with footer
 import Footer from "@/components/Footer";
 
 export const metadata = {
