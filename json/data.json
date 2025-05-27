@@ -2,7 +2,7 @@
   "Projects": [
     {
       "show": true,
-      "title": "Client Personal Protfolio Website",
+      "title": "Red Chief Landing Page",
       "desc": [
         "A personal portfolio website that I created for a client. The website is built using two main tech, native (HTML, CSSS, JS) and react based (ReactJs, TailwindCSS, Typescript). The website also created based on the client design, and improved and sliced by me. The website has a few features such as a about page, a project page, resume page, and a contact page.",
         "The website is created using a modern design and a clean interface that appeals to a wide audience. The website also has a responsive design that makes it easy to use on any device. The website also has a few animations that make the website more interactive and engaging."
