@@ -194,7 +194,7 @@
       "category": [1]
     },
     {
-      "show": true,
+      "show": false,
       "title": "LUDOang",
       "desc": [
         "LUDOang is a game that my team and I created for a final project in my university. The game is built python, pygame, and OpenGL. The game is a 2D game that is inspired by a Ludo game. The game has a few features such randomZone, and a 3D dice.",
