@@ -4,8 +4,8 @@
       "show": true,
       "title": "Red Chief Landing Page",
       "desc": [
-        "A personal portfolio website that I created for a client. The website is built using two main tech, native (HTML, CSSS, JS) and react based (ReactJs, TailwindCSS, Typescript). The website also created based on the client design, and improved and sliced by me. The website has a few features such as a about page, a project page, resume page, and a contact page.",
-        "The website is created using a modern design and a clean interface that appeals to a wide audience. The website also has a responsive design that makes it easy to use on any device. The website also has a few animations that make the website more interactive and engaging."
+        "The Red Chief Landing Page is a responsive and visually appealing web application created to represent the Red Chief Shoes brand. Developed using modern frontend technologies like React.js and Tailwind CSS, the landing page is designed with a clean layout and a focus on user experience.",
+        "It includes various sections such as a compelling hero banner, featured product highlights, customer testimonials, and smooth navigation, all aimed at capturing user interest and promoting the brand effectively. The website is fully responsive, ensuring that it looks and performs well on all devices, from desktops to mobile phones."
       ],
       "year": "2025",
       "preview": "",
