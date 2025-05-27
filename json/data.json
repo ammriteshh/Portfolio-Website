@@ -296,7 +296,7 @@
       "category": [1]
     },
     {
-      "show": true,
+      "show": false,
       "title": "Aleph Discord Bot",
       "desc": [
         "Aleph is a Discord bot that I created for my dircord server to use. The bot is built using Python and the discord.py library. The bot has image grabber feauture that takes argument (keywords) and returns an image from the internet.", "Other than that this bot has a few other features such as utility command to delete a messages, and a command to get the server's ping. This bot is still in development and I plan to add more features in the future."],
