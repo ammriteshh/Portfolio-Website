@@ -240,7 +240,7 @@
       "category": [1]
     },
     {
-      "show": true,
+      "show": false,
       "title": "React Realtime Chat",
       "desc": [
         "My ambitious project that delves into the world of interactive web development using React. This project is a realtime chat application that allows users to create chat rooms and chat with other users in realtime. The application is built using React, Firebase, and Daisy UI.",
