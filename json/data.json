@@ -165,7 +165,7 @@
       "category": [1]
     },
     {
-      "show": true,
+      "show": false,
       "title": "Simadun",
       "desc": [
         "Simadun is an Exam Management System developed for doctoral students in the Department of Electrical Engineering and Informatics Universitas Negeri Malang. The system facilitates the management of five different types of examinations, allowing students to apply for exams with ease. Professors and program heads can efficiently oversee the exam processes.",
