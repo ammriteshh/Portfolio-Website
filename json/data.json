@@ -218,7 +218,7 @@
       "category": [9]
     },
     {
-      "show": true,
+      "show": false,
       "title": "VICC Landing Page",
       "desc": [
         "This project is one of my freelance projects. This project is a landing page for Vocational Inter-cultural Camp event held by Vocational Faculty of Universitas Negeri Malang. The website is built using Next.js, Javascript, and Tailwind CSS.", "The website is mainly frontend project, which is already using responsive design. The website has a few features such carousel, and a few animations. The website also has a few pages such as home, topic, and speaker page."
