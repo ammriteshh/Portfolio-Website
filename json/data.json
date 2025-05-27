@@ -84,7 +84,7 @@
       "category": [2]
     },
     {
-      "show": true,
+      "show": false,
       "title": "SIPETI: Heart Prediction Website",
       "desc": [
         "This is a Machine Learning based website that I created as a collage project. The website is built using Decision Tree algorithm and Flask. The website is a heart attack prediction website that can predict whether a person will get a heart attack or not based on their health condition.",
