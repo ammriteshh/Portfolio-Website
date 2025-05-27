@@ -72,12 +72,12 @@ export default function Experience() {
 							Student
 						</h4>
 						<p className="text-justify">
-						I’m currently pursuing my studies at Lovely Professional University, 
-						where I’ve been growing both technically and personally. During my time here, 
-						I’ve worked on real-world projects, especially in web development and API testing. 
+						I am currently pursuing my studies at Lovely Professional University, 
+						where I have been growing both technically and personally. During my time here, 
+						I have worked on real-world projects, especially in web development and API testing. 
 						The university's diverse and collaborative environment has helped me build strong 
 						problem-solving skills and stay up-to-date with modern technologies. 
-						I'm passionate about learning and always eager to take on new challenges.
+						I am passionate about learning and always eager to take on new challenges.
 						</p>
 						<div className="flex flex-wrap gap-2 mt-4 text-sm">
 							<div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
