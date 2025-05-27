@@ -58,7 +58,7 @@
       "category": [1, 2]
     },
     {
-      "show": true,
+      "show": false,
       "title": "Javanese Translation Website",
       "desc": [
         "A Javanese ngoko - krama translation website that I created as a collaborative project with my friends. The website is built using the original Transformer architecture by Vaswani et al. (2017). Built with Python, TensorFlow, Flask, HTML, and CSS, the website allows users to input text in Javanese krama and receive the corresponding ngoko translation.", 
