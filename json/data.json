@@ -139,7 +139,7 @@
       "category": [1, 2]
     },
     {
-      "show": true,
+      "show": false,
       "title": "Saku Senyum",
       "desc": [
         "Saku Senyum is a website that I created as a Fullstack Developer in PT Hafdzahmedia based on client request. The website is a sales management for UMKM or small business. The website is built using Next.js, TypeScript, Tailwind CSS, ShadCN UI, Prisma, and MySQL.",
