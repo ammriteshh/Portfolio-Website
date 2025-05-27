@@ -75,7 +75,7 @@ export default function Experience() {
 						I am currently pursuing my studies at Lovely Professional University, 
 						where I have been growing both technically and personally. During my time here, 
 						I have worked on real-world projects, especially in web development and API testing. 
-						The university's diverse and collaborative environment has helped me build strong 
+						The university has a diverse and collaborative environment has helped me build strong 
 						problem-solving skills and stay up-to-date with modern technologies. 
 						I am passionate about learning and always eager to take on new challenges.
 						</p>
