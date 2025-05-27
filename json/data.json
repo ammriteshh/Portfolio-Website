@@ -113,7 +113,7 @@
       "category": [2]
     },
     {
-      "show": true,
+      "show": false,
       "title": "Generative Trivia",
       "desc": [
         "A generative trivia website built with Next.js, Firebase, NextAuth, Google OAuth, and TypeScript. Users can generate trivia questions for predefined school subjects and answer them with a unique interactive input style. The application supports user authentication with Google and stores data in Firestore.",
