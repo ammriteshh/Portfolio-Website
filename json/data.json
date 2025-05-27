@@ -28,7 +28,7 @@
       "category": [1]
     },
     {
-      "show": true,
+      "show": false,
       "title": "Mind Mirror",
       "desc": [
         "LMS website that integrated Generative AI feauture to track studnet various keys like mood, behavior, and cognitive ability when learning. The website is built using Laravel as a fullstack framework. In this website teacher can track student mood and other metrics data based on the material students accessed.",
