@@ -28,23 +28,20 @@
       "category": [1]
     },
     {
-      "show": false,
-      "title": "Mind Mirror",
+      "show": true,
+      "title": "Personal Portfolio Website",
       "desc": [
-        "LMS website that integrated Generative AI feauture to track studnet various keys like mood, behavior, and cognitive ability when learning. The website is built using Laravel as a fullstack framework. In this website teacher can track student mood and other metrics data based on the material students accessed.",
-        "The website also has a few features such as a dashboard for the teacher to see the student's data, a material page, and a quiz page. The website also has a few charts to visualize the student's data. The website provided the student captured data that can be downloaded by the teacher.",
-        "The website also has a features to export the lecture data such as the mood, behaviour, and cognitive score to a xlxs file that can be downloaded by the teacher."
+        "This is my personal portfolio website that I created to showcase my projects and skills. The website is built using Next.js, Tailwind CSS, and JavaScript. The website is fully responsive and designed to be user-friendly and engaging.",
+        "The website has a few features such as a home page, a projects page, a about page, and a contact page. The website also has a few animations and transitions to make it more engaging and interactive."
       ],
-      "year": "2024",
-      "preview": "",
+      "year": "2025",
+      "preview": "https://ammriteshh.vercel.app/",
       "code": "",
-      "thumbnail": "/image/projects/web/mind-mirror/mind-thumbnail.jpg",
+      "thumbnail": "/image/projects/web/portfolio/portfolio-thumbnail.jpg",
       "images": [
-        "/image/projects/web/mind-mirror/mind1.png",
-        "/image/projects/web/mind-mirror/mind2.png",
-        "/image/projects/web/mind-mirror/mind3.png",
-        "/image/projects/web/mind-mirror/mind4.png",
-        "/image/projects/web/mind-mirror/mind5.png"
+        "/image/projects/web/portfolio/portfolio1.png",
+        "/image/projects/web/portfolio/portfolio2.png",
+        "/image/projects/web/portfolio/portfolio3.png"
       ],
       "tech": [
         "PHP",
