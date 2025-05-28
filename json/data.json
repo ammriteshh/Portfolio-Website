@@ -317,7 +317,7 @@
       "category": [9]
     }, 
     {
-      "show": true,
+      "show": false,
       "title": "LPTK Cup 2023 Website",
       "desc": [
         "LPTK Cup UM is a website that I created for a competition held by  the Universitas Negeri Malang. The website is mainly built using Laravel and Bootstrap. The website has a few features such as a registration form, a login system, article system, file upload,  and a dashboard for the admin to manage the contents.",
