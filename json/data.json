@@ -8,8 +8,8 @@
         "It includes various sections such as a compelling hero banner, featured product highlights, customer testimonials, and smooth navigation, all aimed at capturing user interest and promoting the brand effectively. The website is fully responsive, ensuring that it looks and performs well on all devices, from desktops to mobile phones."
       ],
       "year": "2025",
-      "preview": "",
-      "code": "",
+      "preview": "https://red-chief-landing-page.vercel.app/",
+      "code": "https://github.com/ammriteshh/Red-Chief-Landing-Page",
       "thumbnail": "/image/projects/web/redchief-page/redchief-thumbnail.png",
       "images": [
         "/image/projects/web/redchief-page/redchief-one.png",
@@ -36,17 +36,17 @@
       ],
       "year": "2025",
       "preview": "https://ammriteshh.vercel.app/",
-      "code": "",
-      "thumbnail": "/image/projects/web/portfolio/portfolio-thumbnail.jpg",
+      "code": "https://github.com/ammriteshh/portfolio-website",
+      "thumbnail": "/image/projects/web/portfolio/portfolio-thumbnail.png",
       "images": [
         "/image/projects/web/portfolio/portfolio1.png",
         "/image/projects/web/portfolio/portfolio2.png",
         "/image/projects/web/portfolio/portfolio3.png"
       ],
       "tech": [
-        "PHP",
-        "Laravel",
-        "Bootstrap",
+        "NextJS",
+        "ReactJS",
+        "JavaScript",
         "MySQL",
         "jQuery",
         "DataTables"
