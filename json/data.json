@@ -24,7 +24,7 @@
         "TailwindCSS",
         "Vite"
       ], 
-      "slug": "apii-porto",
+      "slug": "redchief-page",
       "category": [1]
     },
     {
@@ -51,7 +51,7 @@
         "jQuery",
         "DataTables"
       ], 
-      "slug": "mind-mirror",
+      "slug": "portfolio",
       "category": [1, 2]
     },
     {
