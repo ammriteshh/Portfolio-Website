@@ -4,4 +4,4 @@ export default function Loading() {
 			<h1 className="text-4xl text-gray-900">Loading...</h1>
 		</div>
 	);
-}
+};
