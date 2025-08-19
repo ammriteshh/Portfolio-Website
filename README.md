@@ -1,110 +1,154 @@
-<!-- # Amritesh Porto 2
+### Portfolio Website
 
-![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=aleph-discord-bot.visitor-badge)
+Modern, performant personal portfolio built with Next.js (App Router), React, Tailwind CSS, and Framer Motion. Projects are sourced from a simple JSON file, enabling quick edits without touching component code.
 
-This is my debut project utilizing Next.js, a portfolio website featuring four primary sections: Home, About, Projects, and Contact. The site is brought to life with animations powered by Framer Motion, enhanced page transitions with Fullpage.js, and styled using elements of Tailwind CSS. This project also read list of project data from a JSON file. It serves as a showcase of my web development skills and represents my initial foray into web development with Next.js.
+#### Tech stack
 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+- **Next.js 15** (App Router)
+- **React 19**
+- **Tailwind CSS 4**
+- **Framer Motion** (animations)
+- **Font Awesome** (icons)
 
-## Features
+#### Key features
 
-* **Smooth Animation:** Smooth page scroll and scroll trigger animation.
-* **Smooth Page Transition:** Smooth page transition with prefetching feature of next js.
-* **Dynamic Data:** Read the project data from JSON file instead of directly implemented the data.
-* **Intelliticks chat widget:** Chat with owner of the web realtime.
+- **Sections**: Home, About, Projects, Project Detail, Projects Archive, 404
+- **Data-driven projects** from `json/data.json`
+- **Slug-based routing** for project details: `/projects/[slug]`
+- **Simple category filter** on the projects list
+- **Responsive images** with `next/image`
+- **Sitemap script** (`generate-sitemap.js`)
 
-## Installation
+---
 
-1. Ensure you have [pnpm](https://pnpm.io/) installed. If not, you can install it using:
+### Getting started
 
-   ```shell
-   npm install -g pnpm
-   ```
-2. Clone the repository:
+Prerequisites: Node.js 18+ and a package manager (npm or pnpm).
 
-   ```shell
-   git clone https://github.com/Amritesh/Amritesh-porto-2-nextJs.git
-   ```
-3. Navigate to the project directory:
+1. Install dependencies
 
-   ```shell
-   cd Amritesh-porto-2-nextJs
-   ```
-4. Install dependencies:
+```bash
+# with npm
+npm install
 
-   ```
-   pnpm install
-   ```
-5. Start the development server
+# or with pnpm
+pnpm install
+```
 
-   ```shell
-   pnpm next dev
-   ```
-6. Update the Intelliticks chat widget script in components/Chat.jsx, with your own
+2. Run the dev server
 
-   ```javascript
-    "use client"
-    import { useEffect } from "react";
+```bash
+# npm
+npm run dev
 
-    // Component for Intelliticks chat widget
-    const Chat = () => {
-    	useEffect(() => {
-    		// Replace the Intelliticks script here
+# pnpm
+pnpm dev
+```
 
-    	}, []);
+3. Build and start (production)
 
-    	return null;
-    };
+```bash
+# build
+npm run build   # or: pnpm build
 
-    export default Chat;
-   ```
-7. Set env.local by copying env.example and fill the variable
+# start
+npm run start   # or: pnpm start
+```
 
-   ```
-   ```
+4. Optional: generate a sitemap
 
-## Usage
+```bash
+npm run generate-sitemap   # or: pnpm generate-sitemap
+```
 
-There are four main sections and two subpages in this portfolio website:
+---
 
-### Home
+### Project structure (high level)
 
-The home page serves as an introduction to the portfolio. It provides an overview of your web development skills and passion for the field. Users can explore other sections from here.
+```
+app/
+  (root)/
+    layout.jsx, page.jsx, loading.jsx
+  about/
+    page.jsx, components/*
+  projects/
+    page.jsx            # list view (filters by category)
+    [slug]/page.jsx     # detail view (loads by `slug`)
+    archive/page.jsx
+components/             # shared UI (Navbar, Footer, Button, etc.)
+json/
+  data.json             # project data source
+public/                 # images and static assets
+```
 
-### About
+---
 
-The about page offers more detailed information about you as a web developer. It might include your background, education, skills, and interests in the field of web development.
+### Data model (`json/data.json`)
 
-### Projects
+Each entry under `Projects` follows this shape:
 
-The projects section showcases your work as a web developer. Users can explore the projects you've worked on, and you can provide details such as project descriptions, technologies used, and images.
+```json
+{
+  "show": true,
+  "title": "Red Chief Landing Page",
+  "desc": ["...", "..."],
+  "year": "2025",
+  "preview": "https://amritesh-singh-portfolio.vercel.app/",
+  "code": "https://github.com/ammriteshh/Portfolio-Website",
+  "thumbnail": "/public/image/projects/portfolio-thumbnail.png",
+  "images": ["/public/image/projects/portfolio-image.png"],
+  "tech": ["ReactJS", "TailwindCSS", "Vite"],
+  "slug": "redchief-page",
+  "category": [1]
+}
+```
 
-### Contact
+- `slug` (string): unique identifier used in the URL (`/projects/[slug]`). Required for the detail page and project links.
+- `category` (number[]): numeric tags used for filtering on the projects list. You can define your own mapping (e.g., `1 = Web`, `2 = AI`, `9 = Other`). Ensure it stays consistent with any UI filters you implement.
+- `show` (boolean): controls whether the project appears on the main projects page.
 
-The contact page allows users to get in touch with you. You can provide contact information or a contact form for inquiries.
+If you remove `slug` or `category`, update the components that use them:
 
-### Subpages
+- `slug` is read in `app/projects/[slug]/page.jsx` and used for links in `app/projects/components/ProjectCard.jsx`.
+- `category` is checked in `app/projects/components/ProjectCard.jsx` for filtering.
 
-- **Project archive:** list all of your project that dont needed to display at main project page.
-- Project details: See the main project detail by clicking the project image.
+---
 
-Feel free to customize and expand upon these sections and subpages to suit your needs and showcase your unique skills and projects.
+### Routes
 
-### Intelliticks chat widget
+- `/` – Home
+- `/about` – About
+- `/projects` – Projects list
+- `/projects/[slug]` – Project detail (by `slug`)
+- `/projects/archive` – Archive list
+- Custom `not-found` page for 404s
 
-Enjoy chat realtime with ease using Intelliticks (https://app.intelliticks.com/)
+---
 
-## Contributing
+### Images & assets
 
-Contributions are welcome! If you find any issues or have suggestions, feel free to open an issue or submit a pull request.
+- Store images under `public/image/...` and reference using absolute paths (e.g., `/image/projects/...`).
+- Thumbnails and gallery images for each project are rendered with `next/image`.
 
-## Reference (inspiration)
+---
 
-- https://www.frans.my.id/
-- https://kuon-yagi-portfolio.netlify.app/
+### Deployment
 
-## License
+- Optimized for **Vercel**. Push to a Git repository and import the repo on Vercel.
+- Environment variables are not required for the core app in its current state.
 
-This project is licensed under the GPL-3.0 License see the [LICENSE](LICENSE) file for details.
+---
 
-Copyright (C) 2025 Amritesh Shafelbilyunazra -->
+### Scripts
+
+- `dev` – start the development server
+- `build` – production build
+- `start` – start the production server
+- `lint` – run Next.js ESLint
+- `generate-sitemap` – write a gzipped sitemap under `public/`
+
+---
+
+### License
+
+GPL-3.0 © 2025 Amritesh Singh. See `LICENSE` for details.
