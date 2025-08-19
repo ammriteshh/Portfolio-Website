@@ -58,22 +58,6 @@ export default function Skills() {
 								Communication Skills	
 							</div>
 						</div>
-						{/* <div className="flex flex-col items-center gap-2">
-					<CloudIcon className="w-12 h-12" />
-					<div className="font-medium">Cloud Computing</div>
-				</div>
-				<div className="flex flex-col items-center gap-2">
-					<BarChartIcon className="w-12 h-12" />
-					<div className="font-medium">Data Analysis</div>
-				</div>
-				<div className="flex flex-col items-center gap-2">
-					<ComputerIcon className="w-12 h-12" />
-					<div className="font-medium">Cybersecurity</div>
-				</div>
-				<div className="flex flex-col items-center gap-2">
-					<PackageIcon className="w-12 h-12" />
-					<div className="font-medium">Product Management</div>
-				</div> */}
 					</div>
 				</section>
 			</Wrapper>

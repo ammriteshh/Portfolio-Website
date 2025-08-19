@@ -53,13 +53,6 @@ export default function Page() {
 							My Projects
 						</h1>
 						<Hr />
-						{/* <p className="title  text-xl mt-4 tracking-wider text-gray-900 leading-[1.7rem] mb-5">
-							List of my projects that I have done and{" "}
-							<span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
-								{" "}
-								currently working on.
-							</span>
-						</p> */}
 						<motion.div
 							initial={{ opacity: 0, y: 100 }}
 							animate={{ opacity: 1, y: 0 }}
