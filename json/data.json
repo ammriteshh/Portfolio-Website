@@ -55,29 +55,28 @@
       "category": [1, 2]
     },
     {
-      "show": false,
-      "title": "Javanese Translation Website",
+      "show": true,
+      "title": "Ask GPT",
       "desc": [
-        "A Javanese ngoko - krama translation website that I created as a collaborative project with my friends. The website is built using the original Transformer architecture by Vaswani et al. (2017). Built with Python, TensorFlow, Flask, HTML, and CSS, the website allows users to input text in Javanese krama and receive the corresponding ngoko translation.", 
-        "The website is designed to be simple to use, with a clean and modern interface that appeals to a wide audience. Users can input text in Javanese krama and receive the corresponding ngoko translation. The Project also provide ipynb file for the model training and the model itself."
+        "Ask GPT is a beautiful, full-featured AI chat application that provides an intuitive interface for conversing with OpenAI's GPT-4o-mini model.", 
+        "This project implements a secure and robust API endpoint for AI-powered chat using OpenAI’s GPT models. Users can send messages to the /api/chat route, which processes the input, communicates with the OpenAI API, and returns intelligent, context-aware responses."
       ],
-      "year": "2024",
-      "preview": "",
-      "code": "https://github.com/Alvalens/web-javanese-translation",
-      "thumbnail": "/image/projects/ai/javanese-translation/javanese-translation-thumbnail.jpg",
+      "year": "2025",
+      "preview": "https://the-ask-gpt-ai.vercel.app/",
+      "code": "https://github.com/ammriteshh/ask-gpt",
+      "thumbnail": "/image/projects/ask-gpt/ask-gpt-thumbnail.png",
       "images": [
-        "/image/projects/ai/javanese-translation/javanese-translation1.png",
-        "/image/projects/ai/javanese-translation/javanese-translation2.png"
+        "/image/projects/ask-gpt/ask-gpt1.png"
       ],
       "tech": [
-        "Transformers",
-        "Python",
-        "Tensorflow",
-        "Flask",
-        "HTML",
+        "NextJS",
+        "ReactJS",
+        "OpenAI GPT-4o-mini",
+        "Typescript",
+        "Vercel",
         "CSS"
       ], 
-      "slug": "javanese-translation",
+      "slug": "ask-gpt",
       "category": [2]
     },
     {
@@ -312,34 +311,6 @@
       ],
       "slug": "aleph-discord-bot",
       "category": [9]
-    }, 
-    {
-      "show": false,
-      "title": "LPTK Cup 2023 Website",
-      "desc": [
-        "LPTK Cup UM is a website that I created for a competition held by  the Universitas Negeri Malang. The website is mainly built using Laravel and Bootstrap. The website has a few features such as a registration form, a login system, article system, file upload,  and a dashboard for the admin to manage the contents.",
-        "This project is my second freelance project, this project is not as big as my first freelance project but I learned a lot from this project. I learn how to manage a project and how to work with a team."
-      ],
-      "year": "2023",
-      "preview": "",
-      "code": "",
-      "thumbnail": "/image/projects/web/lptk/lptk1.png",
-      "images": [
-        "/image/projects/web/lptk/lptk1.png",
-        "/image/projects/web/lptk/lptk2.png",
-        "/image/projects/web/lptk/lptk3.png",
-        "/image/projects/web/lptk/lptk4.png"
-      ],
-      "tech": [
-        "PHP",
-        "Laravel",
-        "Bootstrap",
-        "MySQL",
-        "jQuery",
-        "DataTables"
-      ],
-      "slug": "lptk-cup-2023",
-      "category": [1]
-    }
+    } 
   ]
 }
