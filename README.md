@@ -83,24 +83,6 @@ public/                 # images and static assets
 
 ---
 
-### Data model (`json/data.json`)
-
-Each entry under `Projects` follows this shape:
-
-```json
-{
-  "show": true,
-  "title": "Red Chief Landing Page",
-  "desc": ["...", "..."],
-  "year": "2025",
-  "preview": "https://amritesh-singh-portfolio.vercel.app/",
-  "code": "https://github.com/ammriteshh/Portfolio-Website",
-  "thumbnail": "/public/image/projects/portfolio-thumbnail.png",
-  "images": ["/public/image/projects/portfolio-image.png"],
-  "tech": ["ReactJS", "TailwindCSS", "Vite"],
-  "slug": "redchief-page",
-  "category": [1]
-}
 ```
 
 - `slug` (string): unique identifier used in the URL (`/projects/[slug]`). Required for the detail page and project links.
@@ -152,3 +134,4 @@ If you remove `slug` or `category`, update the components that use them:
 ### License
 
 GPL-3.0 © 2025 Amritesh Singh. See `LICENSE` for details.
+```
