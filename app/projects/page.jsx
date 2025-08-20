@@ -17,7 +17,6 @@ import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 
 
 export default function Page() {
-	const [activeCategory, setActiveCategory] = useState(1);
 	const projects = Projects.Projects.filter((item) => item.show === true);
 
 	useEffect(() => {
@@ -72,7 +71,6 @@ export default function Page() {
 						<ProjectCard
 							project={project}
 							key={index}
-							activeCategory={activeCategory}
 						/>
 					))}
 				</div>
