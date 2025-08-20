@@ -1,11 +1,10 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import Button from "@/components/Button";
 import Image from "next/image";
 
-// images
 import ProjectAll from "@/public/image/projects.png";
 
 import Hr from "@/components/Hr";
