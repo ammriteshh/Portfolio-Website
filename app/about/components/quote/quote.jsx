@@ -1,4 +1,3 @@
-// Quote.js
 import "./style.css";
 import { motion } from "framer-motion";
 import { useIntersectionObserver } from "./useIntersectionObserver";
