@@ -3,11 +3,10 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import PropTypes from "prop-types";
 
-export default function ProjectCard({ project, index, activeCategory }) {
+export default function ProjectCard({ project, index }) {
 	return (
 		<>
-			{project.category.includes(parseInt(activeCategory)) && (
-				<Link href={"projects/" + project.slug} key={index}>
+			<Link href={"projects/" + project.slug} key={index}>
 					<motion.div
 						className="z-10 relative flex justify-center items-start flex-col mb-5 md:px-10 w-full h-auto bg-gray-400 group/tes py-20 px-5 md:py-2 aspect-video "
 						initial={{
@@ -52,14 +51,11 @@ export default function ProjectCard({ project, index, activeCategory }) {
 						</div>
 					</motion.div>
 				</Link>
-			)}
-		</>
-	);
+			</>
+		);
 }
 
 ProjectCard.propTypes = {
 	project: PropTypes.object.isRequired,
 	index: PropTypes.number.isRequired,
-	activeCategory: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
-		.isRequired,
 };
