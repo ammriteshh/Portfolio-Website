@@ -8,5 +8,4 @@ const Button = ({ children, variation, ...props }) => (
 		{children}
 	</button>
 );
-
 export default Button;
