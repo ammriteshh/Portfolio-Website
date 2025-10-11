@@ -95,11 +95,11 @@ export default function Education() {
 									</p>
 								</div>
 								{/* add gpa in a style */}
-								{/* <div className="flex flex-wrap gap-2 mt-4 text-sm">
+								<div className="flex flex-wrap gap-2 mt-4 text-sm">
 									<div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
-										GPA: 3.9 out of 4
+										GPA: 6.23 out of 10
 									</div>
-								</div> */}
+								</div>
 							</div>
 						</div>
 						{/* <div className="flex flex-col justify-start px-5 md:px-0">
