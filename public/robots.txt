@@ -1,4 +1,2 @@
 User-agent: *
 Disallow:
-
-Sitemap: https://amritesh.my.id/sitemap2.xml
