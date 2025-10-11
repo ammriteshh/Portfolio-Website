@@ -63,7 +63,7 @@ export default function Experience() {
 			<Wrapper>
 				<div className="grid gap-4 relative">
 					<div className="aspect-square w-5 bg-black rounded-full absolute left-0 translate-x-[-29.5px] z-10" />
-					<div className="font-medium text-lg">2023 - Present</div>
+					<div className="font-medium text-lg">2022 - Present</div>
 					<div>
 						<h3 className="font-semibold text-xl text-black">
 							Lovely Professional University
@@ -83,9 +83,6 @@ export default function Experience() {
 							<div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
 								Web Development
 							</div>
-							{/* <div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
-								Next.js
-							</div> */}
 							<div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
 								Data Structures
 							</div>
@@ -95,72 +92,6 @@ export default function Experience() {
 						</div>
 					</div>
 				</div>
-				<div className="grid gap-4 relative">
-					<div className="aspect-square w-5 bg-black rounded-full absolute left-0 translate-x-[-29.5px] z-10" />
-					<div className="font-medium text-lg">October 2024 - November 2024</div>
-					<div>
-						<h3 className="font-semibold text-xl text-black">
-							ShadowFox
-						</h3>
-						<h4 className=" font-light text-md mb-4">
-							Web Development Intern
-						</h4>
-						<p className="text-justify">
-						During my internship at Shadowfox, I worked on crafting and fine-tuning chatbot prompts using 
-						prompt engineering and reinforcement learning with human feedback (RLHF). 
-						My focus was on improving the quality and relevance of AI responses in both English and Indonesian. 
-						This experience helped me understand how thoughtful prompt design can lead to more natural 
-						and accurate conversations between users and AI. It also strengthened my ability to work in a fast-paced, 
-						innovative environment.
-						</p>
-
-						<div className="flex flex-wrap gap-2 mt-4 text-sm">
-							<div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
-								React JS
-							</div>
-							<div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
-								JavaScript
-							</div>
-							<div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
-								Problem Solving
-							</div>
-						</div>
-					</div>
-				</div>
-				{/* <div className="grid gap-4 relative">
-					<div className="aspect-square w-5 bg-black rounded-full absolute left-0 translate-x-[-29.5px] z-10" />
-					<div className="font-medium text-lg">2023 - Present</div>
-					<div>
-						<h3 className="font-semibold text-xl text-black">
-							Self-Employed
-						</h3>
-						<h4 className=" font-light text-md mb-4">
-							Web Developer | Freelance
-						</h4>
-						<p className="text-justify">
-							Specialized in crafting innovative solutions using
-							Laravel and Next.js, enhancing client satisfaction
-							and project efficiency. Contributed expertise in
-							both frontend and backend development during
-							collaborative team projects, leading to successful
-							project completions
-						</p>
-						<div className="flex flex-wrap gap-2 mt-4 text-sm">
-							<div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
-								React
-							</div>
-							<div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
-								Next.js
-							</div>
-							<div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
-								Laravel
-							</div>
-							<div className="bg-gray-300 text-black px-2 py-1 rounded-2xl">
-								MySql
-							</div>
-						</div>
-					</div>
-				</div> */}
 			</Wrapper>
 		</>
 	);
