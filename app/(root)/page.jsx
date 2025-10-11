@@ -102,7 +102,7 @@ const MyPage = () => {
 										}}>
 										<Button variation="primary">
 											<Link
-												href={"/docs/resume-amriteshsingh.pdf"}
+												href={"/docs/Resume - Amritesh Singh.pdf"}
 												target="_blank"
 												rel="noopener noreferrer"
 												download>
