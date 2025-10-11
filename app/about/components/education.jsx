@@ -84,13 +84,14 @@ export default function Education() {
 								</div>
 								<div className="flex items-center gap-2">
 									<p className="text-justify">
-										Aspiring to be a software engineer, I am
-										currently pursuing a bachelor&rsquo;s
-										degree in computer science at
-										Universitas Negeri Malang. Fascinated by
-										the world of technology, I am eager to
-										learn and explore new things in the
-										field of computer science.
+										Aspiring to become a software engineer, 
+										I am currently pursuing a Bachelor's 
+										degree in Computer Science at 
+										Lovely Professional University. 
+										I have a deep interest in technology 
+										and a strong curiosity to learn, explore, 
+										and grow in the ever-evolving field of 
+										computer science.
 									</p>
 								</div>
 								{/* add gpa in a style */}
