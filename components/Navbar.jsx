@@ -216,7 +216,7 @@ const Navbar = () => {
 								isNavOpen ? "-rotate-45 -translate-y-2 bg-white" : ""
 							}`}></div>
 					</button>
-				</div>
+				</div>;
 			</nav>
 			{/* items */}
 			<NavItems isNavOpen={isNavOpen} setIsNavOpen={setIsNavOpen} />
