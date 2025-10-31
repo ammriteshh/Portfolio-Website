@@ -4,11 +4,11 @@ Modern, performant personal portfolio built with Next.js (App Router), React, Ta
 
 #### Tech stack
 
-- **Next.js 15** (App Router)
-- **React 19**
-- **Tailwind CSS 4**
-- **Framer Motion** (animations)
-- **Font Awesome** (icons)
+- **Next.js**
+- **React**
+- **Tailwind CSS**
+- **Framer Motion**
+- **Font Awesome**
 
 #### Key features
 
