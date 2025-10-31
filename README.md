@@ -8,6 +8,10 @@ Modern, performant personal portfolio built with Next.js (App Router), React, Ta
 - **React**
 - **Tailwind CSS**
 - **Framer Motion**
+<<<<<<< HEAD
+=======
+- **Font Awesome**
+>>>>>>> 402193cf1b9eab81117c92114a8533c62539299d
 
 #### Key features
 
