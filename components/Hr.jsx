@@ -76,4 +76,4 @@ Hr.propTypes = {
 
 Hr.defaultProps = {
 	variant: "short",
-};
+}
