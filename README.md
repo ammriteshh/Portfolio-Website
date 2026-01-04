@@ -46,24 +46,3 @@ Portfolio-Website/
 ├── .gitignore
 ├── README.md
 ```
-
----
-
-### Routes
-
-- `/` – Home
-- `/about` – About
-- `/projects` – Projects list
-- `/projects/[slug]` – Project detail (by `slug`)
-- `/projects/archive` – Archive list
-- Custom `not-found` page for 404s
-
----
-
-### Scripts
-
-- `dev` – start the development server
-- `build` – production build
-- `start` – start the production server
-- `lint` – run Next.js ESLint
-- `generate-sitemap` – write a gzipped sitemap under `public/`
