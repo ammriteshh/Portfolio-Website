@@ -8,10 +8,6 @@ Modern, performant personal portfolio built with Next.js (App Router), React, Ta
 - **React**
 - **Tailwind CSS**
 - **Framer Motion**
-<<<<<<< HEAD
-=======
-- **Font Awesome**
->>>>>>> 402193cf1b9eab81117c92114a8533c62539299d
 
 #### Key features
 
@@ -24,78 +20,32 @@ Modern, performant personal portfolio built with Next.js (App Router), React, Ta
 
 ---
 
-### Getting started
-
-Prerequisites: Node.js 18+ and a package manager (npm or pnpm).
-
-1. Install dependencies
-
-```bash
-# with npm
-npm install
-
-# or with pnpm
-pnpm install
-```
-
-2. Run the dev server
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-```
-
-3. Build and start (production)
-
-```bash
-# build
-npm run build   # or: pnpm build
-
-# start
-npm run start   # or: pnpm start
-```
-
-4. Optional: generate a sitemap
-
-```bash
-npm run generate-sitemap   # or: pnpm generate-sitemap
-```
-
----
-
 ### Project structure (high level)
 
 ```
-app/
-  (root)/
-    layout.jsx, page.jsx, loading.jsx
-  about/
-    page.jsx, components/*
-  projects/
-    page.jsx            # list view (filters by category)
-    [slug]/page.jsx     # detail view (loads by `slug`)
-    archive/page.jsx
-components/             # shared UI (Navbar, Footer, Button, etc.)
-json/
-  data.json             # project data source
-public/                 # images and static assets
+Portfolio-Website/
+├── app/
+│   ├── (root)/           # pages
+│   ├── about/
+│   ├── projects/
+│   └── …                 # Next.js app routes
+├── components/           # React UI pieces
+├── json/
+│   └── data.json         # portfolio content
+├── public/
+│   ├── favicon.ico       # site icon
+│   └── image/
+│       ├── skills/       # only used images
+│       └── projects/     # only used project images
+├── tailwind.config.js
+├── postcss.config.js
+├── jsconfig.json
+├── next.config.js
+├── package.json
+├── package-lock.json
+├── .gitignore
+├── README.md
 ```
-
----
-
-```
-
-- `slug` (string): unique identifier used in the URL (`/projects/[slug]`). Required for the detail page and project links.
-- `category` (number[]): numeric tags used for filtering on the projects list. You can define your own mapping (e.g., `1 = Web`, `2 = AI`, `9 = Other`). Ensure it stays consistent with any UI filters you implement.
-- `show` (boolean): controls whether the project appears on the main projects page.
-
-If you remove `slug` or `category`, update the components that use them:
-
-- `slug` is read in `app/projects/[slug]/page.jsx` and used for links in `app/projects/components/ProjectCard.jsx`.
-- `category` is checked in `app/projects/components/ProjectCard.jsx` for filtering.
 
 ---
 
@@ -110,20 +60,6 @@ If you remove `slug` or `category`, update the components that use them:
 
 ---
 
-### Images & assets
-
-- Store images under `public/image/...` and reference using absolute paths (e.g., `/image/projects/...`).
-- Thumbnails and gallery images for each project are rendered with `next/image`.
-
----
-
-### Deployment
-
-- Optimized for **Vercel**. Push to a Git repository and import the repo on Vercel.
-- Environment variables are not required for the core app in its current state.
-
----
-
 ### Scripts
 
 - `dev` – start the development server
@@ -131,10 +67,3 @@ If you remove `slug` or `category`, update the components that use them:
 - `start` – start the production server
 - `lint` – run Next.js ESLint
 - `generate-sitemap` – write a gzipped sitemap under `public/`
-
----
-
-### License
-
-GPL-3.0 © 2025 Amritesh Singh. See `LICENSE` for details.
-```
