@@ -2,29 +2,29 @@
   "Projects": [
     {
       "show": true,
-      "title": "Red Chief Landing Page",
+      "title": "CipherSQL Studio",
       "desc": [
-        "The Red Chief Landing Page is a responsive and visually appealing web application created to represent the Red Chief Shoes brand. Developed using modern frontend technologies like React.js and Tailwind CSS, the landing page is designed with a clean layout and a focus on user experience.",
-        "It includes various sections such as a compelling hero banner, featured product highlights, customer testimonials, and smooth navigation, all aimed at capturing user interest and promoting the brand effectively. The website is fully responsive, ensuring that it looks and performs well on all devices, from desktops to mobile phones."
+        "CipherSQLStudio is a browser-based interactive SQL learning platform designed to help users learn and practice SQL with hands-on assignments, hints, and progress tracking. It’s built as a full-stack application with a frontend interface, backend server, and database integration.",
+        "The platform provides a hands-on learning experience where users can select SQL problems, understand the table schema, write queries in an advanced Monaco-powered editor (similar to VS Code), and execute them instantly against a sandboxed PostgreSQL environment. This allows learners to practice in a safe, controlled database without risking real data."
       ],
       "year": "2025",
-      "preview": "https://red-chief-landing-page.vercel.app/",
-      "code": "https://github.com/ammriteshh/Red-Chief-Landing-Page",
+      "preview": "https://cipher-sql-studio-ui.onrender.com/",
+      "code": "https://github.com/ammriteshh/CipherSQLStudio",
       "thumbnail": "/image/projects/web/redchief-page/redchief-thumbnail.png",
       "images": [
-        "/image/projects/web/redchief-page/redchief-one.png",
-        "/image/projects/web/redchief-page/redchief-two.png",
-        "/image/projects/web/redchief-page/redchief-three.png"
+        "/image/projects/CipherSQL Studio/CipherSQL-Thumbnail.png",
+        "/image/projects/CipherSQL Studio/CipherSQL1.png",
+        "/image/projects/CipherSQL Studio/CipherSQL2.png"
       ],
       "tech": [
-        "HTML",
-        "CSS",
-        "JS",
-        "ReactJS",
-        "TailwindCSS",
-        "Vite"
+        "React.js",
+        "Express.js",
+        "Monaco Editor",
+        "PostgreSQL",
+        "MongoDB",
+        "Google Gemini API"
       ], 
-      "slug": "redchief-page",
+      "slug": "ciphersql-studio",
       "category": [1]
     },
     {
@@ -52,32 +52,31 @@
         "DataTables"
       ], 
       "slug": "portfolio",
-      "category": [1, 2]
+      "category": [2]
     },
     {
       "show": true,
       "title": "Ask GPT",
       "desc": [
-        "Ask GPT is a beautiful, full-featured AI chat application that provides an intuitive interface for conversing with OpenAI's GPT-4o-mini model.", 
-        "This project implements a secure and robust API endpoint for AI-powered chat using OpenAI’s GPT models. Users can send messages to the /api/chat route, which processes the input, communicates with the OpenAI API, and returns intelligent, context-aware responses."
+        "RestAssured-CucumberBDD is an API Test Automation Framework built using Java, Rest Assured, and Cucumber BDD to validate RESTful APIs in a structured and behavior-driven way. This framework automates testing of the Restful Booker demo application, ensuring the correctness of critical operations such as authentication, booking creation, retrieval, updating, and deletion.", 
+        "The framework follows a Behavior-Driven Development (BDD) approach where test scenarios are written in Gherkin language to make tests readable, business-friendly, and easy to understand. These Gherkin steps are mapped to Java step definitions that use Rest Assured to execute HTTP requests, handle payloads, verify status codes, response bodies, headers, schemas, and validate end-to-end API workflows."
       ],
       "year": "2025",
-      "preview": "https://the-ask-gpt-ai.vercel.app/",
-      "code": "https://github.com/ammriteshh/ask-gpt",
-      "thumbnail": "/image/projects/ask-gpt/ask-gpt-thumbnail.png",
+      "preview": "https://github.com/ammriteshh/RestAssured-CucumberBDD",
+      "code": "https://github.com/ammriteshh/RestAssured-CucumberBDD",
+      "thumbnail": "/image/projects/CucumberBDD/CucumberBDD.png",
       "images": [
-        "/image/projects/ask-gpt/ask-gpt1.png"
+        "/"
       ],
       "tech": [
-        "NextJS",
-        "ReactJS",
-        "OpenAI GPT-4o-mini",
-        "Typescript",
-        "Vercel",
-        "CSS"
+        "Java",
+        "Rest Assured",
+        "Cucumber BDD",
+        "Maven",
+        "Gherkin"
       ], 
-      "slug": "ask-gpt",
-      "category": [2]
+      "slug": "cucumber-bdd",
+      "category": [3]
     },
     {
       "show": true,
@@ -104,7 +103,7 @@
         "ReactJS"
       ], 
       "slug": "uttar-pradesh-tourism",
-      "category": [2]
+      "category": [4]
     }
   ]
 }
