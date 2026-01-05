@@ -56,7 +56,7 @@
     },
     {
       "show": true,
-      "title": "Ask GPT",
+      "title": "CucumberBDD Rest-Assured",
       "desc": [
         "RestAssured-CucumberBDD is an API Test Automation Framework built using Java, Rest Assured, and Cucumber BDD to validate RESTful APIs in a structured and behavior-driven way. This framework automates testing of the Restful Booker demo application, ensuring the correctness of critical operations such as authentication, booking creation, retrieval, updating, and deletion.", 
         "The framework follows a Behavior-Driven Development (BDD) approach where test scenarios are written in Gherkin language to make tests readable, business-friendly, and easy to understand. These Gherkin steps are mapped to Java step definitions that use Rest Assured to execute HTTP requests, handle payloads, verify status codes, response bodies, headers, schemas, and validate end-to-end API workflows."
@@ -103,7 +103,7 @@
         "ReactJS"
       ], 
       "slug": "uttar-pradesh-tourism",
-      "category": [4]
+      "category": [4  ]
     }
   ]
 }
